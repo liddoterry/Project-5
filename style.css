@@ -1,0 +1,202 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-vector/cat-cup-coffee-seamless-pattern-adorable-kitten-coffee-cup-cute-cat-heart-coffee_511024-503.jpg?w=740');
+    background-repeat: repeat;
+}
+.main-header {
+  animation: fadeInUp 5s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 5;
+  }
+}
+
+header {
+    background-color: #333;
+    opacity: 0.95;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #444;
+    opacity: 0.95;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+  color: #333;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    color: #444;
+    max-width: 1250px;
+    margin: 0 auto; 
+    background-color: #ffffff;
+    opacity: 0.9;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #000000;
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  background-color: #333;
+  color: white;
+  text-shadow: 2px 2px #444;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: #333;
+    opacity: 0.95;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 5px;
+    margin-bottom: 1rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 2rem;
+}
+
+.grid-item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+        width: 500px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        height: 400px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+.buttons {
+        position: relative;
+        top: -20px;
+      }
+ .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: #333;
