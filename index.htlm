@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class ="main-header"><img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/11/6/0/fnd_cat-latte-art.jpg.rend.hgtvcom.616.462.suffix/1415304438292.jpeg" alt="Cat in a cup" width="100" height="100" class="center"></h1>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="transparent-box grid-container">
+            <div class="grid-item">
+                <h2>About Me</h2>
+                <p>
+                    Hi there! I'm passionate about web development and design. I love creating beautiful and functional websites that provide a great user experience. My name is Teresa Rodriguez. I was born in <a target="_blank" href="https://www.lindsay.ca.us/home" style="color: #333">Lindsay, California</a>, and I am 32 years old. I have a one-year-old daughter, Noemi. I have worked for Amazon for 6 years as a Process Assistant and believe now I need to change my occupation and do something I enjoy. <a target="_blank" href="https://www.linkedin.com/in/teresa-terry-rodriguez/" style="color:  #333">Click here for my LinkedIn</a>
+                </p>
+            </div>
+            <div class="grid-item">
+                <h2>My Blog</h2>
+                <p>I have learned so much in this program. I became interested in taking this course because of my old MySpace days. I loved making profile layouts and reorganizing the top 8 friends that always caused so much drama in the past.</p>
+                <h2>8-5-2023</h2>
+                <p>In this page, you will see my beautiful navigation bar that highlights when you hover over it. It was something that I really wanted to achieve, and I believe I have. You will also see the transparency backgrounds that were added to make the website more legible.</p>
+                <p>It was difficult adding more character to this page, ensuring that I didn't miss anything. I feel like I can do more, but I need to learn the new skills that are yet to come. I've come a long way from project 1 to project 2. I am very happy with my achievements and looking forward to the next lessons.</p>
+            </div>
+          <div class="grid-item">
+            <h2>Vlog</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GlX4QTUu_jk?si=4_Kw_-BHqnbpM6ta" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          
+          <div class="grid-item">
+            <h2> My Daughter </h2>
+          <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="https://source.unsplash.com/random" class="slide" width="500" height="400" />
+        <img src="https://source.unsplash.com/random" class="slide" width="500" height="400" />
+        <img src="https://source.unsplash.com/random" class="slide" width="500" height="400" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+  <div class="contact-info">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+  
+    <footer>
+        <p>Thanks for visiting! &#128008;</p>
+    </footer>
+</body>
+</html>
